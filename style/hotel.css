@@ -1,0 +1,218 @@
+.title {
+    display: flex;
+    align-items: center;
+}
+
+.hotel-name {
+    flex: 7;
+}
+
+.spot {
+    flex: 2;
+}
+
+.spot-link {
+    transition: all .2s ease-in-out;
+    color: #ff3366;
+}
+
+.spot-link:hover {
+    box-shadow: 0 0 5px black;
+    transform: scale(1.1);
+}
+
+.rating {
+    background-color: #eb2e64;
+    flex: 1;
+    color: #ffff;
+    height: 100%;
+    text-align: center;
+}
+
+.rate {
+    font-size: 1.5rem;
+}
+
+.votes {
+    font-size: 0.7rem;
+}
+
+.book-now-button {
+    border: none;
+    position: absolute;
+    top: 90px;
+    right: -4%;
+    width: 20%;
+    border-radius: 50px;
+    text-align: center;
+    line-height: 1rem;
+    background-image: linear-gradient(to right, #eb2f64, #ba265d);
+    color: #ffff;
+    padding: 20px 0;
+    cursor: pointer;
+}
+
+.main-article {
+    padding:  75px 16% 75px 4.5%;
+    position: relative;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-left {
+    background-color: #ffff;
+    width: 68%;
+    padding: 2% 3% 2% 3%;
+    color: #777777;
+    margin-right: 7%;
+}
+
+.description-line:last-of-type{
+    padding-bottom: 60px;
+    border-bottom: 1px #777777 solid; 
+}
+
+.benefits {
+    display: flex;
+    justify-items: center;
+    text-decoration: none;
+    list-style-type: 0;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    border-bottom: 1px #777777 solid; 
+}
+
+.benefits-list:first-of-type {
+    margin: 0 15% 0 10%;
+}
+
+.benefits-list {
+    list-style-type: none;
+}
+
+.benefit {
+    margin-bottom: 20px;
+}
+
+.friends {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 6% 0 0;
+}
+
+.friends-images {
+    position: relative;
+    width: 20%;
+}
+
+.img1{
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    top: 0;
+}
+
+.img2 {
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 30%;
+    position: absolute;
+    top: 0;
+}
+
+.img3 {
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 60%;
+    position: absolute;
+    top: 0;
+}
+
+.img4 {
+    width: 40%;
+    border-radius: 50%;
+    border: 2px solid white;
+    left: 90%;
+    position: absolute;
+    top: 0;
+}
+
+.content-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #777777;
+    width: 25%;
+}
+
+.opinion {
+    background-image: url("../images/quotes.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 15%;
+    background-color: #ffff;
+    padding: 0 15.5% 2% 15.5%;
+    margin-bottom: 20px;
+    position: relative;
+} 
+
+.opinion-body {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 30%;
+    height: 30%;
+    margin-right: 10%;
+}
+
+.name {
+    color: #777777;
+}
+
+.date {
+    color: #acacac
+}
+.rank-value {
+    color: #eb2e64;
+    font-size: 130%;
+}
+
+@media only screen and (max-width: 1024px) {
+    .content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .book-now-button {
+        top: 17px;
+    }
+
+    .content-left {
+        width: 90%;
+    }
+
+    .content-right {
+        margin-top: 30px;
+        width: 100%;
+        flex-direction: row;
+    }
+
+    .opinion {
+        margin: 10px;
+        padding: 1% 5%;
+        flex: 2;
+    }
+
+    .main-article {
+        padding: 75px 30px 75px 30px;
+    }
+ }
