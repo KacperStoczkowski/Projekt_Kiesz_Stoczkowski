@@ -1,0 +1,26 @@
+.header-title {
+    padding: 25px 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 80%;
+    background-color: #ffff;
+    padding: 3%;
+    font-family: "Open Sans";
+}
+
+.room-image {
+    justify-content: space-between;
+    width: 35%;
+    transition: all .2s ease-in-out;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.room-image:hover {
+    transform: scale(0.9);
+    opacity: 0.5;
+}
